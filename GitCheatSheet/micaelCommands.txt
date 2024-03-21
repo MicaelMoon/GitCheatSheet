@@ -2,3 +2,4 @@ git fetch [remote]: Hämtar ändringar från ett fjärranlagt arkiv.
 git pull [remote] [branch]: Fetches changes and merges them into the current branch.
 git push [remote] [branch]: Pushes local changes to a remote repository.
 git log: Displays commit history.
+git log --oneline: Displays abbreviated commit history.
