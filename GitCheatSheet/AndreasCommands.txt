@@ -17,3 +17,5 @@
 6.git diff							Git-kommandot git diff visar skillnaden mellan ändringarna i din arbetsmapp och stegområdet (index) eller mellan stegområdet och repositariet.
 									Det hjälper dig att se vilka ändringar du har gjort i dina filer innan du utför en commit.
 
+7.git diff --staged					Kommandot git diff --staged visar skillnaderna mellan filerna i staging-området och den senaste commiten.
+									Det markerar ändringarna som är staged för nästa commit.
