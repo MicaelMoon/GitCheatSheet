@@ -1,0 +1,15 @@
+git fetch [remote]: Hämtar ändringar från ett fjärranlagt arkiv. 
+git pull [remote] [branch]: Hämtar ändringar och slår ihop dem med den aktuella grenen.
+git push [remote] [branch]: "Skickar lokala ändringar till ett fjärranlagt arkiv.
+git log: Visar historik över commits.
+git log --oneline: Visar förkortad historik över commits.
+git log --author=[author]: Visar commits av en specifik författare.
+git log --grep=[pattern]: Visar commits med commit-meddelanden som matchar ett mönster.
+git show [commit_hash]: Visar information om en specifik commit.
+git tag [tag_name]: Skapar en lättviktig tagg vid det aktuella commitet.
+git tag -a [tag_name] -m "[tag_message]": Skapar en annoterad tagg med ett meddelande.
+git tag: Listar alla taggar.
+git push --tags: Skickar taggar till ett fjärranlagt arkiv.
+git stash: Stashar ändringar i arbetskatalogen för senare användning.
+git stash pop: Tillämpar de senast stashade ändringarna.
+git clean -n: Visar vilka oövervakade filer som skulle tas bort.
