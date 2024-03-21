@@ -28,3 +28,5 @@
 10.git branch						Kommandot git branch listar alla grenar i repositoriet. Det indikerar också den aktuella grenen med en asterisk (*).
 
 11.git branch [branch_name]			Kommandot git branch [branch_name] skapar en ny gren med det angivna namnet vid den nuvarande commiten.
+
+12.git checkout [branch_name]		Kommandot git checkout [branch_name] växlar till den angivna grenen och gör den till den aktiva grenen.
