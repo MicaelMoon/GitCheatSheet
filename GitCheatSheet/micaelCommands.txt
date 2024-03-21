@@ -3,3 +3,4 @@ git pull [remote] [branch]: Fetches changes and merges them into the current bra
 git push [remote] [branch]: Pushes local changes to a remote repository.
 git log: Displays commit history.
 git log --oneline: Displays abbreviated commit history.
+git log --author=[author]: Displays commits by a specific author.
