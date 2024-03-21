@@ -10,6 +10,10 @@
 4.git status						Kommandot git status visar den nuvarande statusen för arbetskatalogen och staging-området. Det visar vilka filer som är ändrade, ospårade eller staged för commit.
 									Detta hjälper användare att förstå vilka ändringar som har gjorts sedan den senaste commiten.
 
-git clone "[repositorium-URL]"		Git-kommandot git clone [repositorium-URL] skapar en kopia av ett fjärr-Git-repositorium på din lokala maskin.
+5.git clone "[repositorium-URL]"	Git-kommandot git clone [repositorium-URL] skapar en kopia av ett fjärr-Git-repositorium på din lokala maskin.
 									Detta gör det möjligt för dig att arbeta med kodbasen lokalt,
 									göra ändringar och skicka tillbaka dem till det ursprungliga repositariet om du har nödvändiga behörigheter.
+
+6.git diff							Git-kommandot git diff visar skillnaden mellan ändringarna i din arbetsmapp och stegområdet (index) eller mellan stegområdet och repositariet.
+									Det hjälper dig att se vilka ändringar du har gjort i dina filer innan du utför en commit.
+
