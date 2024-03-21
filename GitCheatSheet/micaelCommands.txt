@@ -1,1 +1,2 @@
 git fetch [remote]: Hämtar ändringar från ett fjärranlagt arkiv. 
+git pull [remote] [branch]: Fetches changes and merges them into the current branch.
