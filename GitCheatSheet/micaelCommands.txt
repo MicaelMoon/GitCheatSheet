@@ -6,3 +6,4 @@ git log --oneline: Displays abbreviated commit history.
 git log --author=[author]: Displays commits by a specific author.
 git log --grep=[pattern]: Displays commits with commit messages matching a pattern.
 git show [commit_hash]: Shows information about a specific commit.
+git tag [tag_name]: Creates a lightweight tag at the current commit.
