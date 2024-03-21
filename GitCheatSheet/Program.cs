@@ -7,6 +7,8 @@ namespace GitCheatSheet
         static void Main(string[] args)
         {
             List<string> commands = new List<string>();
+
+            commands.Add("example");
         }
     }
 }
