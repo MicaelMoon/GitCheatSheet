@@ -1,4 +1,17 @@
 [
-    "git init"
-
+    "git fetch [remote]",
+    "git pull [remote] [branch]",
+    "git push [remote] [branch]",
+    "git log",
+    "git log --oneline",
+    "git log --author=[author]",
+    "git log --grep=[pattern]",
+    "git show [commit_hash]",
+    "git tag [tag_name]",
+    "git tag -a [tag_name] -m '[tag_message]'",
+    "git tag",
+    "git push --tags",
+    "git stash",
+    "git stash pop",
+    "git clean -n"
 ]
