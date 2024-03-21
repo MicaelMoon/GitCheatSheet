@@ -35,3 +35,6 @@
 
 14.git remote						Kommandot git remote visar listan över fjärrrepositorier som är associerade med den aktuella repositorien.
 									Det listar de korta namnen på varje fjärrrepositorium.
+
+15.git remote add [name] [URL]		Kommandot git remote add [name] [URL] lägger till en ny fjärrrepositorium med det angivna namnet och URL:en till den lokala repositorien.
+									Detta gör att du kan referera till den fjärrrepositorien med det givna namnet i Git-kommandon.
