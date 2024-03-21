@@ -1,4 +1,5 @@
 ﻿using System.Threading.Channels;
+using System.Text.Json;
 
 namespace GitCheatSheet
 {
@@ -23,6 +24,10 @@ namespace GitCheatSheet
             commands.Add("git push [remote] [branch]");
             commands.Add("git log");
             commands.Add("git log --online");
+
+            string gitCommands = JsonSerializer.Serialize(commands);
+            string path = Path.Combine(AppContext.BaseDirectory, "Comands.json");
+            File.WriteAllText(path, gitCommands);
         }
     }
 }
