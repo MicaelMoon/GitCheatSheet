@@ -1,0 +1,40 @@
+1.git init:							Kommandot git init initierar en ny Git-repositorium. Detta kommando skapar en ny katalog med namnet .git i roten av projektets katalog.
+									Det ställer också in de nödvändiga Git-filerna och datastrukturerna för versionshantering.
+
+2.git add [file(s)]					Kommandot git add [file(s)] ställer in ändringar i de angivna filerna för att inkluderas i nästa commit. 
+									Det talar om för Git att börja spåra ändringarna i den filen eller filerna och förbereda dem för att commitas till repositoriet.
+
+3.git commit -m "[commit message]"	Kommandot git commit -m "[commit message]" registrerar de staged-ändringarna i repositoriet med ett beskrivande commit-meddelande.
+									Detta meddelande bör kortfattat förklara de ändringar som gjorts i commiten.
+
+4.git status						Kommandot git status visar den nuvarande statusen för arbetskatalogen och staging-området. Det visar vilka filer som är ändrade, ospårade eller staged för commit.
+									Detta hjälper användare att förstå vilka ändringar som har gjorts sedan den senaste commiten.
+
+5.git clone "[repositorium-URL]"	Git-kommandot git clone [repositorium-URL] skapar en kopia av ett fjärr-Git-repositorium på din lokala maskin.
+									Detta gör det möjligt för dig att arbeta med kodbasen lokalt,
+									göra ändringar och skicka tillbaka dem till det ursprungliga repositariet om du har nödvändiga behörigheter.
+
+6.git diff							Git-kommandot git diff visar skillnaden mellan ändringarna i din arbetsmapp och stegområdet (index) eller mellan stegområdet och repositariet.
+									Det hjälper dig att se vilka ändringar du har gjort i dina filer innan du utför en commit.
+
+7.git diff --staged					Kommandot git diff --staged visar skillnaderna mellan filerna i staging-området och den senaste commiten.
+									Det markerar ändringarna som är staged för nästa commit.
+
+8.git reset [file(s)]				Kommandot git reset [file(s)] avmarkerar de angivna filerna från stagingområdet, vilket effektivt tar bort dem från stagingområdet.
+									Det lämnar dock ändringarna i arbetskatalogen intakta.
+
+9.git checkout -- [file(s)]			Kommandot git checkout -- [file(s)] kasserar ändringar i de angivna filerna och återställer dem till det tillstånd de var i vid den senaste commiten.
+
+10.git branch						Kommandot git branch listar alla grenar i repositoriet. Det indikerar också den aktuella grenen med en asterisk (*).
+
+11.git branch [branch_name]			Kommandot git branch [branch_name] skapar en ny gren med det angivna namnet vid den nuvarande commiten.
+
+12.git checkout [branch_name]		Kommandot git checkout [branch_name] växlar till den angivna grenen och gör den till den aktiva grenen.
+
+13.git merge [branch_name]			Kommandot git merge [branch_name] kombinerar den angivna grenen in i den aktuella grenen genom att integrera ändringarna från den angivna grenen i den aktuella grenens historik.
+
+14.git remote						Kommandot git remote visar listan över fjärrrepositorier som är associerade med den aktuella repositorien.
+									Det listar de korta namnen på varje fjärrrepositorium.
+
+15.git remote add [name] [URL]		Kommandot git remote add [name] [URL] lägger till en ny fjärrrepositorium med det angivna namnet och URL:en till den lokala repositorien.
+									Detta gör att du kan referera till den fjärrrepositorien med det givna namnet i Git-kommandon.
