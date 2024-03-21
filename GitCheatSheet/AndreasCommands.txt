@@ -26,3 +26,5 @@
 9.git checkout -- [file(s)]			Kommandot git checkout -- [file(s)] kasserar ändringar i de angivna filerna och återställer dem till det tillstånd de var i vid den senaste commiten.
 
 10.git branch						Kommandot git branch listar alla grenar i repositoriet. Det indikerar också den aktuella grenen med en asterisk (*).
+
+11.git branch [branch_name]			Kommandot git branch [branch_name] skapar en ny gren med det angivna namnet vid den nuvarande commiten.
