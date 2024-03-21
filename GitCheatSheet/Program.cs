@@ -21,6 +21,7 @@
             commands.Add("git push [remote] [branch]");
             commands.Add("git log");
             commands.Add("git log --online");
+            commands.Add("potatis");
         }
     }
 }
