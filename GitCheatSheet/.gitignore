@@ -1,0 +1,30 @@
+git init: Initializes a new Git repository.
+git clone [repository URL]: Clones a repository into a new directory.
+git add [file(s)]: Adds file(s) to the staging area.
+git commit -m "[commit message]": Commits staged changes with a message.
+git status: Shows the current state of the repository.
+git diff: Shows the differences between the working directory and the staging area.
+git diff --staged: Shows the differences between the staging area and the last commit.
+git reset [file(s)]: Unstages file(s) from the staging area.
+git checkout -- [file(s)]: Discards changes in the working directory.
+git branch: Lists all local branches in the repository.
+git branch [branch_name]: Creates a new branch.
+git checkout [branch_name]: Switches to the specified branch.
+git merge [branch_name]: Merges the specified branch into the current branch.
+git remote: Lists all remote repositories.
+git remote add [name] [URL]: Adds a new remote repository.
+git fetch [remote]: Fetches changes from a remote repository.
+git pull [remote] [branch]: Fetches changes and merges them into the current branch.
+git push [remote] [branch]: Pushes local changes to a remote repository.
+git log: Displays commit history.
+git log --oneline: Displays abbreviated commit history.
+git log --author=[author]: Displays commits by a specific author.
+git log --grep=[pattern]: Displays commits with commit messages matching a pattern.
+git show [commit_hash]: Shows information about a specific commit.
+git tag [tag_name]: Creates a lightweight tag at the current commit.
+git tag -a [tag_name] -m "[tag_message]": Creates an annotated tag with a message.
+git tag: Lists all tags.
+git push --tags: Pushes tags to a remote repository.
+git stash: Stashes changes in the working directory for later use.
+git stash pop: Applies the most recently stashed changes.
+git clean -n: Shows which untracked files would be removed.
