@@ -30,3 +30,6 @@
 11.git branch [branch_name]			Kommandot git branch [branch_name] skapar en ny gren med det angivna namnet vid den nuvarande commiten.
 
 12.git checkout [branch_name]		Kommandot git checkout [branch_name] växlar till den angivna grenen och gör den till den aktiva grenen.
+
+13.git merge [branch_name]			Kommandot git merge [branch_name] kombinerar den angivna grenen in i den aktuella grenen genom att integrera ändringarna från den angivna grenen i den aktuella grenens historik.
+
