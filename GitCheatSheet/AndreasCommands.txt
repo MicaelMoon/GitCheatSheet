@@ -1,3 +1,5 @@
-git init:	Kommandot git init initierar en ny Git-repositorium. Detta kommando skapar en ny katalog med namnet .git i roten av projektets katalog.
-			Det ställer också in de nödvändiga Git-filerna och datastrukturerna för versionshantering.
+git init:					Kommandot git init initierar en ny Git-repositorium. Detta kommando skapar en ny katalog med namnet .git i roten av projektets katalog.
+							Det ställer också in de nödvändiga Git-filerna och datastrukturerna för versionshantering.
 
+git add [file(s)]			Kommandot git add [file(s)] ställer in ändringar i de angivna filerna för att inkluderas i nästa commit. 
+							Det talar om för Git att börja spåra ändringarna i den filen eller filerna och förbereda dem för att commitas till repositoriet.
