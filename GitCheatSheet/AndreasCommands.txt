@@ -33,3 +33,5 @@
 
 13.git merge [branch_name]			Kommandot git merge [branch_name] kombinerar den angivna grenen in i den aktuella grenen genom att integrera ändringarna från den angivna grenen i den aktuella grenens historik.
 
+14.git remote						Kommandot git remote visar listan över fjärrrepositorier som är associerade med den aktuella repositorien.
+									Det listar de korta namnen på varje fjärrrepositorium.
