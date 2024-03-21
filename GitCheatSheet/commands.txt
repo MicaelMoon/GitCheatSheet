@@ -1,4 +1,4 @@
-﻿git init: Initializes a new Git repository.
+git init: Initializes a new Git repository.
 git clone [repository URL]: Clones a repository into a new directory.
 git add [file(s)]: Adds file(s) to the staging area.
 git commit -m "[commit message]": Commits staged changes with a message.
