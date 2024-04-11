@@ -8,7 +8,7 @@ namespace GitCheatSheet
         static void Main(string[] args)
         {
             //
-            string path = Path.Combine(AppContext.BaseDirectory, "Comands.json");
+            string pancakes = Path.Combine(AppContext.BaseDirectory, "Comands.json");
         }
     }
 }
